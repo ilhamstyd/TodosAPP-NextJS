@@ -1,0 +1,29 @@
+.listCard {
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: space-evenly;
+  padding: 5px;
+  z-index: 1;
+}
+
+.actionBtnContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  height: 3rem;
+}
+
+.todoCheckbox {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  gap: 5px;
+}
+
+.title {
+  flex: 1;
+}
